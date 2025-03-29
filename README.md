@@ -14,10 +14,10 @@
 
 <h2> 📄  Certifications </h2>
 
-    -  <b> CCNA (CISCO CERTIFIED NETWORK ENGINEER) </b>
-    -  <b> CISCO MERAKI BLACK BELT </b>
-    -  <b> CLOUD PRACTICITONER (ONGOING) </b>
-    -  <b> DIGITAL MARKETING </b>
+    -   CCNA (CISCO CERTIFIED NETWORK ENGINEER)
+    -   CISCO MERAKI BLACK BELT 
+    -   CLOUD PRACTICITONER (ONGOING) 
+    -    DIGITAL MARKETING 
 
     
 <h2> 🤳 Connect with me:</h2>
