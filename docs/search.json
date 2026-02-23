@@ -228,14 +228,14 @@
     "href": "index.html#skills",
     "title": "Shilpi Kumari Portfolio",
     "section": "🧠 Skills",
-    "text": "🧠 Skills\nCloud & Network: AWS, EC2, Lambda, Cisco Switches & Routers, Juniper, Meraki, Firewalls (Fortigate & Palo-Alto), Cisco Meraki , Data-Centre (Nexus switches 5500,7700).\nTools & Tech: Python, SQL, Tableau, Linux , ML (for data analysis)\nSoft Skills: Project Management, Communication, Problem Solving , Multi-tasking"
+    "text": "🧠 Skills\nAI/ML & Analytics: Data visualization, data cleaning, feature engineering, Python (pandas, NumPy, scikit-learn, Matplotlib, Seaborn), ML Models (KNN, Logistic Regression), Generative AI, Business Intelligence, Networking: TCP/IP, LAN/WAN, Routing(BGP,OSPF,ISIS), MPLS, HSRP, VRRP, VPN, DNS, DHCP, Fabric, RADIUS Server, NAT, Ethernet, SSL, SSH Software : ServiceNow, Remedy, SIEM, Nagios, Solarwinds, Wireshark, Netwflow Analyzer, HPNMi, Vs code, HTML/CSS, Github, Citrix, Vmware, Visio Programming & Tools: Python, MySQL, Machine Learning, Git/GitHub, VS Code, Jupyter, scikit-learn, pandas, matplotlib, NumPy Cloud: EC2, Compute, AWS Lambda, VPC, IAM, Dynamodb, S3, Security, Auto-Scaling, Cloud front, CDN, API, CI/CD concepts, Infrastructure-as-Code (Terraform basics), Docker Soft Skills: interpersonal skills, problem-solving, problem identification, configuration management, technical support, Stakeholder collaboration, technical presentation, team facilitation, customer success mindset"
   },
   {
     "objectID": "index.html#certifications",
     "href": "index.html#certifications",
     "title": "Shilpi Kumari Portfolio",
     "section": "📜 Certifications",
-    "text": "📜 Certifications\n\nCCNA | Cisco Certified Network Associate\n\nCisco Meraki Black Belt\n\nAWS Cloud Practitioner\nDigital Marketing | DMI"
+    "text": "📜 Certifications\n\nCCNA | Cisco Certified Network Associate\n\nCisco Meraki Black Belt\n\nAWS Solutions Architect - Associate (In Progress)\nGoogle cloud networking certification (In Progress)"
   },
   {
     "objectID": "index.html#connect-with-me",
@@ -424,7 +424,7 @@
     "href": "Projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Course: Organizational Diagnosis\nTools Used: PESTELE, SWOT, Stakeholder Analysis Outcome: Proposed a strategic framework to enhance host engagement and brand visibility.\n\n\n\nRole: Project Manager\nWork: Built a Work Breakdown Structure and timeline for a cold-pressed organic juice launch.\nResult: Proposed cross-channel strategies including events, digital ads, and loyalty programs.\n\n\n\n\n\nDescription: A serverless personal resume website deployed on AWS using S3 for hosting, Lambda for potential dynamic features, API Gateway for external interactions, and DynamoDB for data storage.\nTools: Deployment using AWS S3, Lambda, API Gateway, DynamoDB\n\nDetailed explanation in this file * link\n\n\n\n\nDescription: An AWS infrastructure setup for hosting a tour planning web application, leveraging EC2 for compute, RDS for database management, VPC for network isolation, and Security Groups for access control.\nTools: EC2, RDS, VPC, Security Groups\n\nDetailed explanation of configuation and deployment attached in file -\nPart 1\nPart 2\n\n\n\n\nA data analysis project using Python and machine learning models (KNN and Logistic Regression) to analyze customer data and predict churn probability.\nTools: Google Colab, Python, Scikit-learn (KNN, Logistic Regression), Pandas, NumPy"
+    "text": "Course: Organizational Diagnosis\nTools Used: PESTELE, SWOT, Stakeholder Analysis Outcome: Proposed a strategic framework to enhance host engagement and brand visibility.\n\n\n\nRole: Project Manager\nWork: Built a Work Breakdown Structure and timeline for a cold-pressed organic juice launch.\nResult: Proposed cross-channel strategies including events, digital ads, and loyalty programs."
   },
   {
     "objectID": "Projects.html#popin-event-host-collaboration-strategy",
@@ -481,5 +481,26 @@
     "title": "Python Project",
     "section": "data anlaysis",
     "text": "data anlaysis"
+  },
+  {
+    "objectID": "Projects.html#project-overview",
+    "href": "Projects.html#project-overview",
+    "title": "Projects",
+    "section": "🛡️ Project Overview",
+    "text": "🛡️ Project Overview\nA machine learning pipeline developed in Google Colab to classify network traffic as ‘Safe’ or ‘Malicious’. By analyzing behavioral features like authentication failures and CPU spikes, the model serves as a proactive defense mechanism against cyber threats."
+  },
+  {
+    "objectID": "Projects.html#key-technical-steps",
+    "href": "Projects.html#key-technical-steps",
+    "title": "Projects",
+    "section": "🛠️ Key Technical Steps",
+    "text": "🛠️ Key Technical Steps\n\nExploratory Data Analysis (EDA): Visualized feature correlations using Pearson coefficients to identify primary threat indicators.\nPreprocessing: Implemented StandardScaler for feature normalization and used stratified splitting to handle class distribution.\nSVM Kernel Analysis: Evaluated Linear, RBF, and Polynomial kernels to find the optimal decision boundary.\nProbabilistic Baseline: Developed a Logistic Regression model to compare distance-based classification with probabilistic outputs."
+  },
+  {
+    "objectID": "Projects.html#final-results",
+    "href": "Projects.html#final-results",
+    "title": "Projects",
+    "section": "📊 Final Results",
+    "text": "📊 Final Results\nThe Linear SVM outperformed other models in a balanced security context.\n\n\n\nModel\nAccuracy\nRecall (Detection Rate)\nPrecision\nROC-AUC\n\n\n\n\nSVM Linear\n93%\n92.3%\n90.0%\n0.981\n\n\nLogistic Regression\n92%\n92.3%\n87.8%\n0.980\n\n\n\n\nKey Insight:\nThe high ROC-AUC of 0.981 suggests that the selected network features are highly discriminative. While the Polynomial kernel offered 100% precision, its lower recall makes it less suitable for high-security environments where missing an attack is a high-risk failure.\nTools: Google Colab, Python, Scikit-learn (SVM, Logistic Regression), Seaborn, Pandas\n\n[Preview] https://colab.research.google.com/drive/1NmCZhni8qfvlThuH8joMFvcI3iolVX-0?usp=sharing\n\n\n\n🟢 Static Resume Website on AWS\nDescription: A serverless personal resume website deployed on AWS using S3 for hosting, Lambda for potential dynamic features, API Gateway for external interactions, and DynamoDB for data storage.\nTools: Deployment using AWS S3, Lambda, API Gateway, DynamoDB\n\nDetailed explanation in this file * link\n\n\n\n🟢 AWS Web Server Hosting for Tour Planning\nDescription: An AWS infrastructure setup for hosting a tour planning web application, leveraging EC2 for compute, RDS for database management, VPC for network isolation, and Security Groups for access control.\nTools: EC2, RDS, VPC, Security Groups\n\nDetailed explanation of configuation and deployment attached in file -\nPart 1\nPart 2\n\n\n\n🟢 Customer Churn Analysis Using KNN and Logistic Regressions\nA data analysis project using Python and machine learning models (KNN and Logistic Regression) to analyze customer data and predict churn probability.\nTools: Google Colab, Python, Scikit-learn (KNN, Logistic Regression), Pandas, NumPy\n\nPreview"
   }
 ]

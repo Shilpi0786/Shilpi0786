@@ -138,8 +138,15 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#popin-event-host-collaboration-strategy" id="toc-popin-event-host-collaboration-strategy" class="nav-link" data-scroll-target="#popin-event-host-collaboration-strategy">🎯 PopIn Event Host Collaboration Strategy</a></li>
   <li><a href="#unsweetened-juice-product-launch" id="toc-unsweetened-juice-product-launch" class="nav-link" data-scroll-target="#unsweetened-juice-product-launch">🧃 Unsweetened Juice Product Launch</a></li>
-  <li><a href="#technical-projects" id="toc-technical-projects" class="nav-link" data-scroll-target="#technical-projects">🌐 Technical Projects</a>
+  <li><a href="#technical-projects" id="toc-technical-projects" class="nav-link" data-scroll-target="#technical-projects">🌐 Technical Projects</a></li>
+  </ul></li>
+  <li><a href="#network-intrusion-detection-using-optimized-svm-logistic-regression" id="toc-network-intrusion-detection-using-optimized-svm-logistic-regression" class="nav-link" data-scroll-target="#network-intrusion-detection-using-optimized-svm-logistic-regression">Network Intrusion Detection using Optimized SVM &amp; Logistic Regression</a>
   <ul class="collapse">
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link" data-scroll-target="#project-overview">🛡️ Project Overview</a></li>
+  <li><a href="#key-technical-steps" id="toc-key-technical-steps" class="nav-link" data-scroll-target="#key-technical-steps">🛠️ Key Technical Steps</a></li>
+  <li><a href="#final-results" id="toc-final-results" class="nav-link" data-scroll-target="#final-results">📊 Final Results</a>
+  <ul class="collapse">
+  <li><a href="#key-insight" id="toc-key-insight" class="nav-link" data-scroll-target="#key-insight"><strong>Key Insight:</strong></a></li>
   <li><a href="#static-resume-website-on-aws" id="toc-static-resume-website-on-aws" class="nav-link" data-scroll-target="#static-resume-website-on-aws">🟢 Static Resume Website on AWS</a></li>
   <li><a href="#aws-web-server-hosting-for-tour-planning" id="toc-aws-web-server-hosting-for-tour-planning" class="nav-link" data-scroll-target="#aws-web-server-hosting-for-tour-planning">🟢 AWS Web Server Hosting for Tour Planning</a></li>
   <li><a href="#customer-churn-analysis-using-knn-and-logistic-regressions" id="toc-customer-churn-analysis-using-knn-and-logistic-regressions" class="nav-link" data-scroll-target="#customer-churn-analysis-using-knn-and-logistic-regressions">🟢 Customer Churn Analysis Using KNN and Logistic Regressions</a></li>
@@ -185,6 +192,61 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="technical-projects" class="level2">
 <h2 class="anchored" data-anchor-id="technical-projects">🌐 Technical Projects</h2>
+</section>
+</section>
+<section id="network-intrusion-detection-using-optimized-svm-logistic-regression" class="level1">
+<h1>Network Intrusion Detection using Optimized SVM &amp; Logistic Regression</h1>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">🛡️ Project Overview</h2>
+<p>A machine learning pipeline developed in Google Colab to classify network traffic as ‘Safe’ or ‘Malicious’. By analyzing behavioral features like authentication failures and CPU spikes, the model serves as a proactive defense mechanism against cyber threats.</p>
+</section>
+<section id="key-technical-steps" class="level2">
+<h2 class="anchored" data-anchor-id="key-technical-steps">🛠️ Key Technical Steps</h2>
+<ol type="1">
+<li><strong>Exploratory Data Analysis (EDA):</strong> Visualized feature correlations using Pearson coefficients to identify primary threat indicators.</li>
+<li><strong>Preprocessing:</strong> Implemented <code>StandardScaler</code> for feature normalization and used stratified splitting to handle class distribution.</li>
+<li><strong>SVM Kernel Analysis:</strong> Evaluated <strong>Linear, RBF, and Polynomial kernels</strong> to find the optimal decision boundary.</li>
+<li><strong>Probabilistic Baseline:</strong> Developed a <strong>Logistic Regression</strong> model to compare distance-based classification with probabilistic outputs.</li>
+</ol>
+</section>
+<section id="final-results" class="level2">
+<h2 class="anchored" data-anchor-id="final-results">📊 Final Results</h2>
+<p>The <strong>Linear SVM</strong> outperformed other models in a balanced security context.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Model</th>
+<th style="text-align: left;">Accuracy</th>
+<th style="text-align: left;">Recall (Detection Rate)</th>
+<th style="text-align: left;">Precision</th>
+<th style="text-align: left;">ROC-AUC</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>SVM Linear</strong></td>
+<td style="text-align: left;"><strong>93%</strong></td>
+<td style="text-align: left;"><strong>92.3%</strong></td>
+<td style="text-align: left;"><strong>90.0%</strong></td>
+<td style="text-align: left;"><strong>0.981</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Logistic Regression</strong></td>
+<td style="text-align: left;">92%</td>
+<td style="text-align: left;">92.3%</td>
+<td style="text-align: left;">87.8%</td>
+<td style="text-align: left;">0.980</td>
+</tr>
+</tbody>
+</table>
+<section id="key-insight" class="level3">
+<h3 class="anchored" data-anchor-id="key-insight"><strong>Key Insight:</strong></h3>
+<p>The high <strong>ROC-AUC of 0.981</strong> suggests that the selected network features are highly discriminative. While the Polynomial kernel offered 100% precision, its lower recall makes it less suitable for high-security environments where missing an attack is a high-risk failure.</p>
+<p><strong>Tools</strong>: Google Colab, Python, Scikit-learn (SVM, Logistic Regression), Seaborn, Pandas</p>
+<ul>
+<li>[Preview] https://colab.research.google.com/drive/1NmCZhni8qfvlThuH8joMFvcI3iolVX-0?usp=sharing</li>
+</ul>
+</section>
 <section id="static-resume-website-on-aws" class="level3">
 <h3 class="anchored" data-anchor-id="static-resume-website-on-aws">🟢 Static Resume Website on AWS</h3>
 <p><strong>Description:</strong> A serverless personal resume website deployed on AWS using S3 for hosting, Lambda for potential dynamic features, API Gateway for external interactions, and DynamoDB for data storage.</p>
