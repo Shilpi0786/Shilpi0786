@@ -17,6 +17,37 @@ format: html
 
 
 ## 🌐 Technical Projects
+# Network Intrusion Detection using Optimized SVM & Logistic Regression
+
+## 🛡️ Project Overview
+
+A machine learning pipeline developed in Google Colab to classify network traffic as 'Safe' or 'Malicious'. By analyzing behavioral features like authentication failures and CPU spikes, the model serves as a proactive defense mechanism against cyber threats.
+
+
+
+## 🛠️ Key Technical Steps
+1. **Exploratory Data Analysis (EDA):** Visualized feature correlations using Pearson coefficients to identify primary threat indicators.
+2. **Preprocessing:** Implemented `StandardScaler` for feature normalization and used stratified splitting to handle class distribution.
+3. **SVM Kernel Analysis:** Evaluated **Linear, RBF, and Polynomial kernels** to find the optimal decision boundary.
+4. **Probabilistic Baseline:** Developed a **Logistic Regression** model to compare distance-based classification with probabilistic outputs.
+
+
+
+## 📊 Final Results
+The **Linear SVM** outperformed other models in a balanced security context.
+
+| Model | Accuracy | Recall (Detection Rate) | Precision | ROC-AUC |
+| :--- | :--- | :--- | :--- | :--- |
+| **SVM Linear** | **93%** | **92.3%** | **90.0%** | **0.981** |
+| **Logistic Regression** | 92% | 92.3% | 87.8% | 0.980 |
+
+### **Key Insight:**
+The high **ROC-AUC of 0.981** suggests that the selected network features are highly discriminative. While the Polynomial kernel offered 100% precision, its lower recall makes it less suitable for high-security environments where missing an attack is a high-risk failure.
+
+**Tools**: Google Colab, Python, Scikit-learn (SVM, Logistic Regression), Seaborn, Pandas
+
+ - [Preview] https://colab.research.google.com/drive/1NmCZhni8qfvlThuH8joMFvcI3iolVX-0?usp=sharing
+ 
 
 ### 🟢 Static Resume Website on AWS 
 

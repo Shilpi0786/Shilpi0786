@@ -21,7 +21,7 @@ Welcome to my GitHub profile! I'm a passionate Cloud Engineer and Senior Network
 # 🎓 Education
 
 - **MBA**  
-  *University Canada West, Expected June 2025*
+  *University Canada West, Expected March 2026*
 
 - **Bachelor of Computer Application (BCA)**  
   *Patna University*
@@ -30,11 +30,17 @@ Welcome to my GitHub profile! I'm a passionate Cloud Engineer and Senior Network
 
 ## 🧠 Skills
 
-**Cloud & Network:** AWS, EC2, Lambda, Cisco Switches & Routers, Juniper, Meraki, Firewalls (Fortigate & Palo-Alto), Cisco Meraki , Data-Centre (Nexus switches 5500,7700).
-
-**Tools & Tech:** Python, SQL, Tableau, Linux , ML (for data analysis)
-
-**Soft Skills:** Project Management, Communication, Problem Solving , Multi-tasking
+**AI/ML & Analytics**: Data visualization, data cleaning, feature engineering, Python (pandas, NumPy, scikit-learn, Matplotlib, 
+Seaborn), ML Models (KNN, Logistic Regression), Generative AI, Business Intelligence,
+**Networking**: TCP/IP, LAN/WAN, Routing(BGP,OSPF,ISIS), MPLS, HSRP, VRRP, VPN, DNS, DHCP, Fabric, RADIUS Server, NAT, 
+Ethernet, SSL, SSH
+**Software** : ServiceNow, Remedy, SIEM, Nagios, Solarwinds, Wireshark, Netwflow Analyzer, HPNMi, Vs code, HTML/CSS, Github, 
+Citrix, Vmware, Visio
+**Programming & Tools**: Python, MySQL, Machine Learning, Git/GitHub, VS Code, Jupyter, scikit-learn, pandas, matplotlib, NumPy
+**Cloud**: EC2, Compute, AWS Lambda, VPC, IAM, Dynamodb, S3, Security, Auto-Scaling, Cloud front, CDN, API, CI/CD 
+concepts, Infrastructure-as-Code (Terraform basics), Docker
+**Soft Skills**: interpersonal skills, problem-solving, problem identification, configuration management, technical support, Stakeholder 
+collaboration, technical presentation, team facilitation, customer success mindset
 
 ---
 
@@ -42,8 +48,9 @@ Welcome to my GitHub profile! I'm a passionate Cloud Engineer and Senior Network
 
 - CCNA | Cisco Certified Network Associate  
 - Cisco Meraki Black Belt  
-- AWS Cloud Practitioner 
-- Digital Marketing | DMI 
+- AWS Solutions Architect - Associate (In Progress)
+- Google cloud networking certification (In Progress)
+
 
 ---
 
